@@ -1,9 +1,9 @@
 {
   "name": "n8n-nodes-pdf-splitter",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Split PDF files into multiple parts by page count",
   "license": "MIT",
-  "homepage": "https://tiborbosma.nl",
+  "homepage": "https://github.com/derpyhue/n8n-nodes-pdf-splitter.git",
   "keywords": [
     "n8n",
     "n8n-community-node-package",
