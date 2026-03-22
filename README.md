@@ -72,7 +72,6 @@ MIT License
 
 ## Author
 
-Tibor Bosma
 Website: https://tiborbosma.nl
 
 ## Support
