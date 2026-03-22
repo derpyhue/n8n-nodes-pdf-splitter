@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-pdf-splitter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Split PDF files into multiple parts by page count",
   "license": "MIT",
   "homepage": "https://tiborbosma.nl",
@@ -30,12 +30,16 @@
     "release": "n8n-node release",
     "prepublishOnly": "n8n-node prerelease"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "n8n": {
     "n8nNodesApiVersion": 1,
     "strict": false,
     "credentials": [],
-    "nodes": ["dist/nodes/PdfSplitter/PdfSplitter.node.js"]
+    "nodes": [
+      "dist/nodes/PdfSplitter/PdfSplitter.node.js"
+    ]
   },
   "devDependencies": {
     "@n8n/node-cli": "*",
@@ -45,6 +49,10 @@
     "release-it": "^19.0.4",
     "typescript": "5.9.2"
   },
-  "peerDependencies": { "n8n-workflow": "*" },
-  "dependencies": { "pdf-lib": "^1.17.1" }
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.17.1"
+  }
 }
