@@ -14,12 +14,11 @@
   ],
   "author": {
     "name": "Tibor Bosma",
-    "email": "tibor@tiborbosma.nl",
     "url": "https://tiborbosma.nl"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tiborbosma/n8n-nodes-pdf-splitter.git"
+    "url": "https://github.com/derpyhue/n8n-nodes-pdf-splitter.git"
   },
   "scripts": {
     "build": "n8n-node build",
